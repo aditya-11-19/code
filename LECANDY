@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int t,i,j,n,m,c;
+    cin>>t;
+    for(i=0;i<t;i++)
+    {   int s=0;
+        cin>>n>>c;
+        for(j=1;j<=n;j++)
+        {
+            cin>>m;
+            s=s+m;
+        }
+        if(s<=c)
+        {
+            cout<<"Yes\n";
+        }
+        else
+        cout<<"No\n";
+    }
+	return 0;
+}
